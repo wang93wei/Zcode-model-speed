@@ -25,7 +25,7 @@ GLM-5.3: 53.5 tok/s
 1. ZCode → **设置 → 插件管理 → Discover** → 点 **`+`** 添加市场
 2. 选择 **GitHub repository**，填入：
    ```
-   wang93wei/model-speed
+   wang93wei/Zcode-model-speed
    ```
 3. 在市场列表中找到 **model-speed**，点 **安装**
 4. **新开一个对话**生效（hook 在会话启动时注册）
@@ -34,7 +34,7 @@ GLM-5.3: 53.5 tok/s
 
 1. 克隆本仓库到任意位置：
    ```bash
-   git clone https://github.com/wang93wei/model-speed.git
+   git clone https://github.com/wang93wei/Zcode-model-speed.git
    ```
 2. ZCode → **设置 → 插件管理 → Discover** → **`+`** → 添加本地文件，选择仓库里的 `marketplace.json`
 3. 安装 **model-speed**，新开对话生效
