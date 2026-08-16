@@ -1,0 +1,17 @@
+{
+  "name": "wang93wei-plugins",
+  "interface": {
+    "displayName": "wang93wei 插件"
+  },
+  "plugins": [
+    {
+      "name": "model-speed",
+      "source": "./",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

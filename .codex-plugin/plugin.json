@@ -1,0 +1,18 @@
+{
+  "name": "model-speed",
+  "version": "0.3.0",
+  "description": "查看 ZCode 模型输出速度统计（tok/s、耗时、token 用量）",
+  "author": {
+    "name": "wang93wei"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Model Speed",
+    "shortDescription": "模型输出速度统计 (tok/s)",
+    "longDescription": "解析本地 rollout 记录，报告每次请求和每个会话的模型输出速度、耗时与 token 用量。提供 /speed 技能命令。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "查看模型输出速度"
+  }
+}

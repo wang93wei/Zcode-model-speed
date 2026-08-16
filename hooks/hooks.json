@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/on_stop.py\" || python \"${CLAUDE_PLUGIN_ROOT}/hooks/on_stop.py\"",
+            "timeoutMs": 20000,
+            "statusMessage": "统计模型输出速度"
+          }
+        ]
+      }
+    ]
+  }
+}
